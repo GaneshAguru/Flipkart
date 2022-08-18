@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.plus-color{
+    color: #ffe500;
+    font-family: 900;
+}
+.logo p{
+    color: white;
+    position: relative;
+    top: -5px;
+}
+.search{
+    background-color: white;
+    padding: 10px;
+    height: 20px;
+    width: 420px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    border-radius: 2px;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1),
+    7px 7px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.search input{
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;  
+}
+.loginBtn{
+    padding: 7px 20px;
+    color: #2874f0;
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.Navlink{
+    margin: 0px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.Navlink i{
+    font-size: 10px;
+    cursor: pointer;
+
+}
+.RecentSearch{
+    display: none;
+    position: absolute;
+    top: 49px;
+    background-color: white;
+    width: 420px;
+    padding: 8px;
+    margin-left: -8px;
+    height: 350px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2),
+    5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #ccc;
+}
+.RecentSearch_List{
+    font-size: 16px;
+    display: flex;
+    color: rgb(95, 94, 94);
+
+}
+.RecentSearch_List p,.RecentSearch_List_Discover p {
+    padding-left: 15px;
+    color: black;
+}
+.discoverMore{
+    margin: 15px 0px;
+    color: rgb(95, 94, 94);
+}
+.RecentSearch_List_Discover{
+    display: flex;
+    padding: 10px 0px;
+}
+.RecentSearch_List_Discover{
+    color: rgb(95, 94, 94);
+    font-size: 18px;
+
+}
+.search:focus-within .RecentSearch{
+    display: block;
+}
+/* ----------3-------- */
+.HoverLogin{
+    position: absolute;
+    top: 61px;
+    width: 200px;
+    height: 350px;
+    margin-left: -100px;
+    background-color: white;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2),
+    5px 5px 10px rgba(0, 0, 0, 0.2);
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    color: black;
+    display: none;
+}
+.triangle-up{
+    position: relative;
+    height: 0;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-bottom: 14px solid rgb(255, 255, 255);
+    border-right: 10px solid transparent;
+    top: -14px;
+}
+.NewUser{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.NewUser a{
+    color: royalblue;
+    text-decoration: none;
+}
+.NewUser a:hover{
+    text-decoration: underline;
+}
+.loginMenu{
+    width: 230px;
+    margin-top: 25px;
+}
+.menuList{
+    display: flex;
+    padding: 15px 0px;
+}
+.menuList p{
+    padding-left: 20px;
+}
+.menuList i{
+    color: #2874f0;
+}
+.loginBtn:hover .HoverLogin{
+    display: flex;
+    cursor: pointer;
+
+}
+
+
+/* ----------------- */
+
+
+/* top navbar product----------- */
+.topProductNavbar{
+    
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    border-bottom: 1px solid #ccc;
+}
+.topProductNavbar_Nav{
+    width: 80px;
+    height: 112px;
+    cursor: pointer;
+    flex: 1;
+
+}
+.topProductNavbar_Nav img{
+    width: 64px;
+    height: 64px;
+
+}
+.topProductNavbar_Nav p{
+    font-weight: 510px;
+}
+.topProductNavbar_Nav:hover p{
+    color: #2874f0;
+}
