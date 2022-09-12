@@ -209,40 +209,6 @@ nav{
 
 
 
-#coupon{
-   
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 20;
-   
-}
-
-.coup {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-.cup-img{
-    width: 600px;
-}
-.coup-div{
-    position: relative;
-    background-color: lightgreen;
-}
-
-
-.code{
-    position: absolute;
-    top:  85%;
-    left:  50%;
-    color: white;
-    font-size: 25px;
-}
 
 
 /*  */
