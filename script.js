@@ -33,3 +33,31 @@ const closeCoupon = () => {
 
 
 // //////
+
+
+
+////Location
+
+
+
+let x=document.getElementById('out');
+ function geolocation(){
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showPosition)
+    }
+    else{
+        x.innerText="Geo is not supported";
+    }
+ }
+
+ function showPosition(data){
+    console.log(data);
+    let lat = data.coords.latitude;
+    let long= data.coords.longitude;
+    x.innerText=`Lat:${Math.round(lat)} & Long:${Math.round(long)}`;
+
+ }
+
+
+
+///////////
